@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">
+                        <img style="width: 120; height: 25;" src="logotoy.gif" alt="">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <input type="button" id='btntraer' value='Traer Autos' style="margin-top: 6;margin-right: 6" class="btn btn-danger">
+                        </li>
+                        <li>
+                            <button id="btncarrito" type="button" class="btn btn-success" style="margin-top: 6">Agregar a Carrito</button>
+                        </li>
+                        <li>
+                            <img style="width: 40; height: 40" src="cart.png" alt="">
+                        </li>
+                        <li>
+                            <span id="contador" aria-hidden="true" class="nav-cart-count nav-cart-0">0</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="col-lg-8">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <h3>Bienvenidos</h3>
+                    <small>Escoja su vehiculo...</small>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-5">
+                    <h3 class="navbar-text navbar-right">Precio
+                        <p role="separator" class="divider" id="preciomid">$0.0</p>
+                    </h3>
+                </div>
+            </div>
+        </nav>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <img id="vistaprevia" class="img-responsive" src="toylogo.jpg" style="width: 800; height: 365" alt="">
+                <span>
+                 <h1 id="textocentro">aaa</h1>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">Seleccione su vehiculo</div>
+            <div class="panel-body" id='contenedorautos'>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-8" </div>
+
+                </div>
+                <div class="col-lg-4" </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript/app.js"></script>
+
+</body>
+
+</html>
