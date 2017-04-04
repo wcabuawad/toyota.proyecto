@@ -19,6 +19,7 @@ $(document).ready(function () {
 
     $('#btntraer').click(function () {
         traerautos();
+        $('#gif86').hide()
     })
 
     function crearAuto(auto) {
