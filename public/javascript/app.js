@@ -68,16 +68,10 @@ $(document).ready(function () {
         })
     }
 
-
-    var cont=0;
-   var arcompra=[{}]
-   $('btncarrito').click(function(){
-       if (cont<=6){
-           
-           arcompra[cont]=[{ nombre:$('#textocentro').text(),precio: parseInt ($('#textocentro').text())}]
+   var arcompra=[];
+   $('#btncarrito').click(function(){
+       arcompra.push({ nombre:$('#textocentro').text(),precio: parseInt ($('#preciomid').text())})
            $("#contador").text(arcompra.length)
-           cont=cont+1
-       }
    })
    
 
