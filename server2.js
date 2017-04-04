@@ -8,7 +8,7 @@ var arautos = [
     { pathImage: '/img/yarisia-side.png', autodesc: '2017 Yaris iA', precio: '15.950' },
     { pathImage: '/img/corolla-side.png', autodesc: '2017 Corolla', precio: '18.500' },
     { pathImage: '/img/camry-side.png', autodesc: '2017 Camry', precio: '23.070' },
-    { pathImage: '/img/camry-side.png', autodesc: '2017 Camry', precio: '23.070' }
+    { pathImage: '/img/avalon-side.png', autodesc: '2017 Avalon', precio: '33.300' }
 ]
 
 
