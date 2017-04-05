@@ -74,6 +74,10 @@ $(document).ready(function () {
        arcompra.push({ nombre:$('#textocentro').text(),precio: parseInt ($('#preciomid').text())})
            $("#contador").text(arcompra.length)
    })
-   
+   $("#btncompra").click(function(){
+       $.each(arcompra, function(index, auto){
+           $("#textocentro2").append(document.createTextNode("Modelo: "+auto.nombre, "Precio: "+auto.precio));
+       })
+   })
 
 });
